@@ -8,7 +8,7 @@ WORKFLOW_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$WORKFLOW_DIR"
 
 # Set the output filename
-OUTPUT_FILE="ChordLookup.alfredworkflow"
+OUTPUT_FILE="alfred-musicians-toolkit.alfredworkflow"
 
 # Remove existing workflow file if it exists
 if [ -e "$OUTPUT_FILE" ]; then

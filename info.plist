@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
     <key>bundleid</key>
-    <string>net.rhydlewis.alfred.chordlookup</string>
+    <string>net.rhydlewis.alfred.musicianstoolkit</string>
     <key>category</key>
-    <string>Productivity</string>
+    <string>Tools</string>
     <key>connections</key>
     <dict>
     </dict>
     <key>createdby</key>
     <string>Rhyd Lewis</string>
     <key>description</key>
-    <string>Lookup musical chord notes using tonal.js</string>
+    <string>Your complete music theory companion with chord analysis, scale reference, and more</string>
     <key>disabled</key>
     <false/>
     <key>name</key>
-    <string>Chord Lookup</string>
+    <string>Musician's Toolkit</string>
     <key>objects</key>
     <array>
         <dict>
@@ -70,8 +70,8 @@
         </dict>
     </array>
     <key>readme</key>
-    <string># Chord Lookup
-*A simple Alfred workflow for looking up musical chord notes*
+    <string># Musician's Tooklit
+*An Alfred workflow for looking up musical chord notes etc.*
 
 ## How to Use
 
@@ -103,7 +103,7 @@ The workflow supports all standard chord notations including:
 - Includes proper error handling for invalid chord names</string>
     <key>uidata</key>
     <dict>
-        <key>chordLookup</key>
+        <key>musiciansToolkit</key>
         <dict>
             <key>xpos</key>
             <real>100</real>
@@ -112,8 +112,8 @@ The workflow supports all standard chord notations including:
         </dict>
     </dict>
     <key>version</key>
-    <string>0.0.1</string>
+    <string>0.0.2</string>
     <key>webaddress</key>
-    <string>https://github.com/rhydlewis/alfred-chord-lookup</string>
+    <string>https://github.com/rhydlewis/alfred-musicians-toolkit</string>
 </dict>
 </plist>
